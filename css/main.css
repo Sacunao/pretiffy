@@ -46,26 +46,33 @@ header{
 	background-size: 100%
 	height: 400px;
 }
+
 .aboutme{
  	text-align: center;
  	color: #8F03E3 ;	
 }
+
 .profile img{
 	width: 90%;
-}
-.imgborder{
 	border: 1px solid #4E4E4E;
+	padding: 2px;
 }
+
 .profile p{
 	font-size: 12px;
 	margin: 0px 10px;
 }
 
 /*SECTION THING*/
+.thing{
+	margin-bottom: 30px;
+}
+
 .titlething{
  	text-align: center;
  	color: #8F03E3;
  }
+
  .titlething h3, h4{
  	margin: 20px 0px;
  }
@@ -75,6 +82,32 @@ header{
 	border: 2px solid #9410E4;
 	padding: 3px;
  }
+
  .cat{
  	border-radius: 50%;
  }
+
+/*FOOTER*/
+footer{
+	background-image: url(../images/tile2.png);
+	background-size: 100%
+	height: 400px;
+}
+
+.contact{
+	text-align: center;
+	color: #8F03E3;
+}
+
+h3{
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+
+.footbotton{
+	display: inline-block;
+}
+
+.footbotton img{
+	margin: 20px;
+}
